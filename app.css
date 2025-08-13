@@ -55,20 +55,52 @@ body{
     width: 100%;
     height: 100%;
 }
-.img_data1{
+
+
+.text_data1{
     grid-row: 3;
     grid-column: 1;
     width: 100%;
-    height: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-
-.img_data2{
-    grid-row: 3;
-    grid-column: 2;
-    width: 100%;
-    height: 100%;
-    align-items: center;
+.tavnit{
+    
+    width:70%;
+    height: 350px;
+    border-radius: 7px;
+    background-color: #171B29;
+    display: flex;
+    flex-direction: column;
+}
+.img_data{
+    margin-left: 13px;
+    width: 35px;
+    height: 35px;
+    border-radius: 40px;
+    padding: 15px;
+    color: green;
+    margin-top: 8px;
+    background-color: green;
+}
+#ForCreators{
+    font-size: 50px;
+    color: green;
+    margin-left: 13px;
+    margin-right: 12px;
+    margin-top: 8px;    
+    margin-bottom: 10px;
 }
 
+#text1{
+    color:#FFFFFF;
+    margin-left: 13px;
+    margin-right: 12px;
 
+}
+#learn_more{
+    margin-left: 13px;
+    color: green;
+}
